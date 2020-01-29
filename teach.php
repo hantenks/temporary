@@ -1,4 +1,5 @@
 <?php
+// testing with git
 require ('sql_connect.php');
 $username=mysql_escape_string($_GET['uname']);
 $vsername=mysql_escape_string($_GET['vname']);
@@ -34,4 +35,3 @@ if (mysql_num_rows($result) > 0) {
 
 </table>
 ?>
-
